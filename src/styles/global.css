@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+body {
+  background: linear-gradient(90deg, #2b303a 0%, #3f4756 100%);
+}
+
+input[type="number"] {
+  padding-left: 10px;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  color: #111317;
+}
+
+@media (max-width: 800px) {
+  .gridParent {
+    padding: 10px;
+    align-items: center;
+    gap: 1.5em;
+    display: grid;
+    grid-template: min-content/1fr;
+    grid-template-areas:
+      "title"
+      "content"
+      "calculator"
+      "title2"
+      "content2"
+      "image"
+      "list";
+  }
+}
