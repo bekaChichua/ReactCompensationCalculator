@@ -138,8 +138,8 @@ justify-self: end;
 max-width: 320px;
 height: 755px;
 background: #ffffff;
-border-radius: 30px;
 padding: 80px 20px;
+clip-path: polygon(8% 0, 93% 0, 100% 3%, 100% 98%, 93% 100%, 8% 100%, 0 98%, 0 3%);
 @media (max-width: 800px) {
   justify-self: center;
 }
